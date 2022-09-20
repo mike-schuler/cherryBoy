@@ -73,6 +73,78 @@
           }
         }
       },
+      "DSharpPlus.Lavalink/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "DSharpPlus": "4.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/DSharpPlus.Lavalink.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/DSharpPlus.Lavalink.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DSharpPlus.SlashCommands/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "DSharpPlus": "4.2.0",
+          "Microsoft.Extensions.DependencyInjection": "5.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/DSharpPlus.SlashCommands.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/DSharpPlus.SlashCommands.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DSharpPlus.VoiceNext/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "DSharpPlus": "4.2.0",
+          "DSharpPlus.VoiceNext.Natives": "1.0.0",
+          "System.Threading.Channels": "5.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/DSharpPlus.VoiceNext.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/DSharpPlus.VoiceNext.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DSharpPlus.VoiceNext.Natives/1.0.0": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-x64/native/libopus.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libsodium.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/libopus.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/libsodium.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
       "Emzi0767.Common/2.6.2": {
         "type": "package",
         "dependencies": {
@@ -1638,6 +1710,63 @@
         "dsharpplus.png",
         "lib/netstandard2.0/DSharpPlus.Interactivity.dll",
         "lib/netstandard2.0/DSharpPlus.Interactivity.xml"
+      ]
+    },
+    "DSharpPlus.Lavalink/4.2.0": {
+      "sha512": "DJKCSWjMw3ulOOQuIt5T3aFVlCLY20H6QxUQz8Q5nMUf2p01A9PnsuvTn1bJGdxq92OVaVaExeWNhDPyvo9g7g==",
+      "type": "package",
+      "path": "dsharpplus.lavalink/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dsharpplus.lavalink.4.2.0.nupkg.sha512",
+        "dsharpplus.lavalink.nuspec",
+        "dsharpplus.png",
+        "lib/netstandard2.0/DSharpPlus.Lavalink.dll",
+        "lib/netstandard2.0/DSharpPlus.Lavalink.xml"
+      ]
+    },
+    "DSharpPlus.SlashCommands/4.2.0": {
+      "sha512": "u9eUYmrvriCHu+pRIJPq9/6fJHB+SkbN3YXkjhpKpS+ddDF/8BQQ5H4zuTIA/gWr3H41RFVa2Nuz7rbaRKqI5w==",
+      "type": "package",
+      "path": "dsharpplus.slashcommands/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dsharpplus.png",
+        "dsharpplus.slashcommands.4.2.0.nupkg.sha512",
+        "dsharpplus.slashcommands.nuspec",
+        "lib/netstandard2.0/DSharpPlus.SlashCommands.dll",
+        "lib/netstandard2.0/DSharpPlus.SlashCommands.xml"
+      ]
+    },
+    "DSharpPlus.VoiceNext/4.2.0": {
+      "sha512": "nTc+u++d4+qU8kxYfjPZj+05oVDeqzrtYTGiH8qY1ssQPTi1M2yNPzK8+H1yxKKvcCnvlboxTN5Z8etc6ycLaQ==",
+      "type": "package",
+      "path": "dsharpplus.voicenext/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dsharpplus.png",
+        "dsharpplus.voicenext.4.2.0.nupkg.sha512",
+        "dsharpplus.voicenext.nuspec",
+        "lib/netstandard2.0/DSharpPlus.VoiceNext.dll",
+        "lib/netstandard2.0/DSharpPlus.VoiceNext.xml"
+      ]
+    },
+    "DSharpPlus.VoiceNext.Natives/1.0.0": {
+      "sha512": "U+UtMpommsfh+OOgLYQBy1e+53P/q6/LW18bgIJqsyshhThhiyEH8ISnpESdQrcqEDj6Nud7+FbnNi7N4QtDGw==",
+      "type": "package",
+      "path": "dsharpplus.voicenext.natives/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dsharpplus.voicenext.natives.1.0.0.nupkg.sha512",
+        "dsharpplus.voicenext.natives.nuspec",
+        "runtimes/win-x64/native/libopus.dll",
+        "runtimes/win-x64/native/libsodium.dll",
+        "runtimes/win-x86/native/libopus.dll",
+        "runtimes/win-x86/native/libsodium.dll"
       ]
     },
     "Emzi0767.Common/2.6.2": {
@@ -4892,8 +5021,12 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "DSharpPlus >= 4.2.0",
       "DSharpPlus.CommandsNext >= 4.2.0",
       "DSharpPlus.Interactivity >= 4.2.0",
+      "DSharpPlus.Lavalink >= 4.2.0",
+      "DSharpPlus.SlashCommands >= 4.2.0",
+      "DSharpPlus.VoiceNext >= 4.2.0",
       "Microsoft.Extensions.Configuration >= 6.0.1",
       "Microsoft.Extensions.Configuration.Binder >= 6.0.0",
       "Microsoft.Extensions.Configuration.Json >= 6.0.0"
@@ -4906,11 +5039,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\mschu\\source\\repos\\cherryBoy\\cherryBoy.csproj",
+      "projectUniqueName": "C:\\Users\\mschu\\source\\repos\\cherryBoy\\cherryBoy.csproj",
       "projectName": "cherryBoy",
-      "projectPath": "c:\\Users\\mschu\\source\\repos\\cherryBoy\\cherryBoy.csproj",
+      "projectPath": "C:\\Users\\mschu\\source\\repos\\cherryBoy\\cherryBoy.csproj",
       "packagesPath": "C:\\Users\\mschu\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\mschu\\source\\repos\\cherryBoy\\obj\\",
+      "outputPath": "C:\\Users\\mschu\\source\\repos\\cherryBoy\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4943,11 +5076,27 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "DSharpPlus": {
+            "target": "Package",
+            "version": "[4.2.0, )"
+          },
           "DSharpPlus.CommandsNext": {
             "target": "Package",
             "version": "[4.2.0, )"
           },
           "DSharpPlus.Interactivity": {
+            "target": "Package",
+            "version": "[4.2.0, )"
+          },
+          "DSharpPlus.Lavalink": {
+            "target": "Package",
+            "version": "[4.2.0, )"
+          },
+          "DSharpPlus.SlashCommands": {
+            "target": "Package",
+            "version": "[4.2.0, )"
+          },
+          "DSharpPlus.VoiceNext": {
             "target": "Package",
             "version": "[4.2.0, )"
           },
